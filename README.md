@@ -4,6 +4,7 @@ Adversarial Music: Real World Audio Adversary Against Wake-word Detection System
 Implement paper http://papers.nips.cc/paper/9362-adversarial-music-real-world-audio-adversary-against-wake-word-detection-system.pdf
 
 `VAD_Attack.ipynb` - main pipeline, where all stuff happens 
+also possible open it in colab https://colab.research.google.com/drive/1D5mFuPkq4UO0WdrWRFO8wNcCPzEhgpKN?usp=sharing
 
 
 
