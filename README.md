@@ -3,10 +3,19 @@ Adversarial Music: Real World Audio Adversary Against Wake-word Detection System
 
 Implement paper http://papers.nips.cc/paper/9362-adversarial-music-real-world-audio-adversary-against-wake-word-detection-system.pdf
 
+
+REPO STRUCTURE:
+
 `VAD_Attack.ipynb` - main pipeline, where all stuff happens 
 (also possible open it in colab https://colab.research.google.com/drive/1QUfJWcdVsSb5JEH6amX__RzPZHOc7z0l?usp=sharing)
+ 
+`Recap.pdf` - Отчет в формате pdf 
 
+`Task2.pdf` - _Ответ на второе задание_ 
 
+`*.wav` - custom utterance "Alexa" for train and test  
+
+`flac_to_wav.sh` - script used in main pipeline for converting .flac files to .wav
 
 
 ### Recap
@@ -46,8 +55,4 @@ __Результаты эксперимента:__
 - Обучен генератор струнной музыки на основе алгоритма Карплус-Стронг. 
 При совмещении тестовой выборки с сгенерированной музыкой удалось понизить точность c 95% до 3%. 
 
-Отчет в формате pdf - `Recap.pdf`
 
-
-
-_Ответ на второе задание_ - `Task2.pdf`
