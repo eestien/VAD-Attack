@@ -11,8 +11,6 @@ REPO STRUCTURE:
  
 `Recap.pdf` - Отчет в формате pdf 
 
-`Task2.pdf` - _Ответ на второе задание_ 
-
 `*.wav` - custom utterance "Alexa" for train and test  
 
 `flac_to_wav.sh` - script used in main pipeline for converting .flac files to .wav
